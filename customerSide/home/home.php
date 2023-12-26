@@ -1,7 +1,7 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_USER', 'cms');
+define('DB_PASS', 'cms');
 define('DB_NAME', 'CanteenDB');
 
 // Create Connection

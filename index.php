@@ -4,8 +4,8 @@ if (file_exists('setup_completed.flag')) {
     echo "Setup has already been completed. The SQL setup won't run again. If not created, open this project in the file explorer and delete setup_completed.flag. It should be next to the index.php file.";
 } else {
     define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', '');
+    define('DB_USER', 'cms');
+    define('DB_PASS', 'cms');
 
     // Create Connection
     $link = new mysqli(DB_HOST, DB_USER, DB_PASS);
